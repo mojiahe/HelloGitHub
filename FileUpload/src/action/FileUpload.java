@@ -55,7 +55,7 @@ public class FileUpload {
 	        while(-1 != (length = is.read(buffer, 0, buffer.length)))
 	        
 	            os.write(buffer);
-	        
+	        System.out.println("ssgggg");
 	        
 	        os.close();
 	        is.close();
